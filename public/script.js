@@ -2,7 +2,7 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
   host: 'rasna-vid-peer.herokuapp.com',
-  port: '80'
+  port: '443'
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
